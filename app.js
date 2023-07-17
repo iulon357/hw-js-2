@@ -9,7 +9,7 @@ console.log(numberArrays);
 
 //დავალება-2:
 
-const arr1 = ["Samsung", 1899, "very good"]
+const arr1 = ["Samsung", 1899, "very good"];
 
 //დავალება-3:
 
