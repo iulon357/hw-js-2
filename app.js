@@ -9,7 +9,21 @@ console.log(numberArrays);
 
 //დავალება-2:
 
-const arr1 = ["Samsung", 1899, "very good"];
+const products = [
+  {
+    productTitle: "apple",
+    productPrice: 9.50,
+  },
+
+  {
+    productTitle: "cherry",
+    productPrice: 10.50,
+  },
+  {
+    productTitle: "peach",
+    productPrice: 12.55,
+  },
+];
 
 //დავალება-3:
 
@@ -35,4 +49,10 @@ const mobShop = {
 
 //დავალება-5:
 
+//v1
 console.log(" Phone name is " + mobShop.phoneName + ", phone price is " + mobShop.phonePrice + " and you can buy it at " + mobShop.shopAddresses)
+
+//v2
+console.log(" Phone name is " + mobShop[0]);
+console.log("phone price is " + mobShop[0]); 
+console.log(" and you can buy it at " + mobShop[0]);
